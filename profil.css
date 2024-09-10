@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #f9ac54;
+    box-shadow: 0 0 10px #f9ac5480;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture-container {
+    position: relative;
+}
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #f9ac54; 
+    object-fit: cover; 
+}
+
+
+.profile-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:#fff;
+    padding: 5px 0;
+    border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+}
+
+.profile-details {
+    text-align: left;
+    max-width: 400px;
+    margin-left: 50px
+
+}
+
+.profile-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    margin-bottom: 10px;
+}
+
+.profile-details strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.weight-update-form {
+    margin-top: 20px;
+}
+
+.weight-update-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.weight-update-form input[type="number"] {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.weight-update-form button {
+    background-color: #f9ac54;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.weight-update-form button:hover {
+    background-color: #d79447;
+}

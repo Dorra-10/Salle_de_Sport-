@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styles de la signature */
+.sign {
+    width: 600px;
+    height: 1350px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #f9ac54;
+    box-shadow: 0 0 20px#f9ac5480
+}
+ 
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    align-items: center;
+    padding-left: 20px;
+}
+form{
+    width: 300px;
+    margin-left: 10px;
+    color: white;
+}
+.span{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+input{
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 100px;
+    margin-top: 15px;
+    padding-left: 100px;
+}
+.btn{
+    width: 100px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-left: 5px;
+    margin-left: 200px;
+    color: white;
+    cursor: pointer;
+    background-color: #f9ac54;
+}

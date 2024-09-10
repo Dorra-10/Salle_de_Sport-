@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profil</title>
+    <link rel="stylesheet" href="profil.css">
+    <script> document.addEventListener("DOMContentLoaded", function() {
+        const weightUpdateForm = document.querySelector(".weight-update-form");
+        const actualWeightLabel = document.getElementById("actualWeight");
+    
+        weightUpdateForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+    
+            const newWeightInput = document.getElementById("newWeight");
+            const newWeight = newWeightInput.value;
+    
+            // Update the actual weight label with the new weight value
+            actualWeightLabel.textContent = newWeight + " kg";
+    
+            // Clear the input field after updating
+            newWeightInput.value = "";
+        });
+    });
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile">
+            <div class="profile-picture-container">
+                <img src="img5.jpg" alt="Profil Picture" class="profile-picture">
+                
+            </div>
+            <div class="profile-details">
+                <h1>Your Profil</h1>
+                <p><strong>Full Name:</strong>Cyrine Doe  </p>
+                <p><strong>Email :</strong>cyrinedoe@gmail.com</p>
+                <p><strong>Age:</strong> 25 years</p>
+                <p><strong>Weight:</strong> 70 kg</p>
+                <p><strong>Height :</strong>160 m</p>
+                <p><strong>Goal:</strong> lose weight</p>
+                <p><strong>Illness:</strong> none</p>
+                <p><strong>Actual Weight:</strong> <span id="actualWeight">70 kg</span></p>
+                <form action="#" method="post" class="weight-update-form">
+                    <label for="newWeight">Update Weight:</label>
+                    <input type="number" id="newWeight" name="newWeight" min="0" step="0.1" required>
+                    <button type="submit">Update</button>
+                </form>  
+            
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,200&display=swap');
+:root{
+    --primary-color:#111317;
+    --primary-color-light:#1f2125;
+    --primary-color-extra-light:#35373b;
+    --secondary-color:#f9ac54;
+    --secondary-color-dark:#d79447;
+    --text-light:#d1d5db;
+    --white:#ffffff;
+    --max-width:1200px;
+
+}
+body{
+    font-family:"Poppins",sans-serif;
+    background-color:var(--primary-color);
+}
+table{
+    color:white;
+    height:100%;
+    border: solid ,5px #f9ac54;
+    box-shadow: 0 0 25px #f9ac5480;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:var(--primary-color);
+    padding: 15px;
+    
+} 
+caption{
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-family:Lugrasimo;
+    color: #f9ac54;
+}
+.cl{
+    background-color: #d79447;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Dancing Script;
+
+}
+th, td {
+    border: 1px solid black; 
+    padding: 0px; 
+    text-align: center; 
+}
+.cl20{
+    color: #d79447;
+}
